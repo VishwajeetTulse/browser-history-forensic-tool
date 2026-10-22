@@ -1,0 +1,36 @@
+======================================================================
+ Browser History Forensic Analysis Tool
+======================================================================
+[1] Acquiring evidence from: samples/History
+    SHA-256 : 94f700d91be6a7f4e05f483ac4db8267bac466fbb7d7e25ccf56e52cbefdf9a2
+    Working copy saved to: output\History_evidence_copy.db
+[2] Parsing history database ...
+    56 visits, 3 downloads found
+[3] Analysing ...
+
+    Top 10 domains:
+          7  docs.python.org
+          7  www.wikipedia.org
+          7  www.youtube.com
+          6  netbanking.examplebank.com
+          5  www.sppu.in
+          4  www.amazon.in
+          4  www.linkedin.com
+          4  github.com
+          3  stackoverflow.com
+          3  drive.google.com
+
+    Activity window: 2026-10-13 09:38:00  ->  2026-10-17 17:11:00
+
+    Keyword 'bank': 6 hit(s)
+      2026-10-15 11:16:00  https://netbanking.examplebank.com/login
+      2026-10-15 12:02:00  https://netbanking.examplebank.com/transfer
+      2026-10-15 12:55:00  https://netbanking.examplebank.com/login
+      2026-10-16 10:47:00  https://netbanking.examplebank.com/login
+      2026-10-16 12:33:00  https://netbanking.examplebank.com/transfer
+      2026-10-17 10:51:00  https://netbanking.examplebank.com/login
+
+[4] Writing reports ...
+    timeline.csv, downloads.csv and report.html written to 'output'
+    Open: D:\Vishwajeet\Submissions\MiniProjects\browser-history-forensic-tool\output\report.html
+Done.

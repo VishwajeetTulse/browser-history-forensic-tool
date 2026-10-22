@@ -1,0 +1,17 @@
+============================= test session starts =============================
+platform win32 -- Python 3.14.6, pytest-9.1.1, pluggy-1.7.0 -- C:\Users\HP\AppData\Local\Programs\Python\Python314\python.exe
+cachedir: .pytest_cache
+metadata: {'Python': '3.14.6', 'Platform': 'Windows-11-10.0.26200-SP0', 'Packages': {'pytest': '9.1.1', 'pluggy': '1.7.0'}, 'Plugins': {'html': '4.2.0', 'metadata': '3.1.1'}}
+rootdir: D:\Vishwajeet\Submissions\MiniProjects\browser-history-forensic-tool
+plugins: html-4.2.0, metadata-3.1.1
+collecting ... collected 7 items
+
+test_bhft.py::test_webkit_epoch_conversion PASSED                        [ 14%]
+test_bhft.py::test_sha256_matches_hashlib PASSED                         [ 28%]
+test_bhft.py::test_read_visits_sorted_and_complete PASSED                [ 42%]
+test_bhft.py::test_downloads_read PASSED                                 [ 57%]
+test_bhft.py::test_keyword_search_case_insensitive PASSED                [ 71%]
+test_bhft.py::test_top_domains_order PASSED                              [ 85%]
+test_bhft.py::test_end_to_end_cli PASSED                                 [100%]
+
+============================== 7 passed in 0.21s ==============================
